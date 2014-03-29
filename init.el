@@ -6,6 +6,7 @@
     powerline
     quickrun
     haskell-mode
+    shm
     ghc
     flymake
     flymake-cursor
