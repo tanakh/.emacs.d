@@ -10,7 +10,6 @@
     flymake
     flymake-cursor
     flycheck
-    flycheck-haskell
     magit
     )
   "A list of packages to install from MELPA at launch.")

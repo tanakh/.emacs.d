@@ -1,13 +1,14 @@
 ;; haskell-mode
 
+(require 'ghc)
+
 (autoload 'ghc-init "ghc" nil t)
 
 (add-hook 'haskell-mode-hook
           (lambda ()
             (turn-on-haskell-indentation)
-	    (turn-on-haskell-decl-scan)
-	    (ghc-init)
-	    ))
+            (turn-on-haskell-decl-scan)
+            (ghc-init)))
 
 (eval-after-load "haskell-mode"
        '(progn
