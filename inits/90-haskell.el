@@ -10,6 +10,9 @@
             (turn-on-haskell-decl-scan)
             (ghc-init)))
 
+(define-key haskell-mode-map "\C-ce" 'ghc-display-errors)
+(define-key haskell-mode-map "\C-cd" 'ghc-display-document)
+
 (eval-after-load "haskell-mode"
        '(progn
           (define-key haskell-mode-map (kbd "C-,") 'haskell-move-nested-left)
