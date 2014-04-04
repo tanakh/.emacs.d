@@ -19,7 +19,7 @@
           (define-key haskell-mode-map (kbd "C-.") 'haskell-move-nested-right)))
 
 ;; structured-haskell-mode
-(require 'shm)
-(add-hook 'haskell-mode-hook 'structured-haskell-mode)
-(set-face-background 'shm-current-face "#eee8d5")
-(set-face-background 'shm-quarantine-face "lemonchiffon")
+;(require 'shm)
+;(add-hook 'haskell-mode-hook 'structured-haskell-mode)
+;(set-face-background 'shm-current-face "#eee8d5")
+;(set-face-background 'shm-quarantine-face "lemonchiffon")
