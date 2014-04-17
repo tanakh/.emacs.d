@@ -12,6 +12,7 @@
     flymake-cursor
     flycheck
     magit
+    idris-mode
     )
   "A list of packages to install from MELPA at launch.")
 
