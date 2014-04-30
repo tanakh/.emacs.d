@@ -8,6 +8,7 @@
     haskell-mode
     shm
     ghc
+    markdown-mode
     flymake
     flymake-cursor
     flycheck
