@@ -15,6 +15,7 @@
     magit
     idris-mode
     markdown-mode
+    review-mode
     )
   "A list of packages to install from MELPA at launch.")
 
