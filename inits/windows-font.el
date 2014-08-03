@@ -1,1 +1,1 @@
-(set-default-font "Ricty-14")
+(set-default-font "Consolas-14")

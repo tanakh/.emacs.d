@@ -1,1 +1,0 @@
-(set-language-environment "Japanese")
